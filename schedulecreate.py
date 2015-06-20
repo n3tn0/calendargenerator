@@ -81,7 +81,6 @@ class CreateSchedule():
             # Write month and date to A1
             worksheet.write(0, 0, workingwith, headings)
 
-
             # Write day numbers
             days = calendar.monthrange(i.year, i.month)
             row = 0
